@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  place-content: center;
+
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.pagination__list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination__button {
+  width: 2rem;
+  height: auto;
+
+  border-radius: 0.75rem;
+
+  &:hover:not(:disabled) {
+    background-color: rgb(30, 41, 59);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,35 @@
+.table-header {
+  .table-header__cell {
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+    &:first-child {
+      padding-left: 2rem;
+    }
+
+    &:last-child {
+      padding-right: 2rem;
+    }
+  }
+}
+
+.table-header__sort-button {
+  width: max-content;
+
+  margin-left: 0.5rem;
+  padding: 0.25rem;
+
+  border-radius: 0.25rem;
+
+  &:hover {
+    background-color: rgb(30 41 59 / 1);
+  }
+}
+
+.table-header__reset-filter {
+  padding-right: 2rem;
+
+  button {
+    padding-right: 0.5rem;
+  }
+}
