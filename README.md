@@ -3,9 +3,11 @@
 - Clone the repo and install the necessary node_modules
 
 ```bash
-git clone https://github.com/akgunberk/prorize.git
+$ git clone https://github.com/akgunberk/prorize.git
 
-npm install
+$ cd prorize
+
+$ npm install
 ```
 
 ## Running Application
